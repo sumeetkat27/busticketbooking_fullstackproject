@@ -1,0 +1,85 @@
+/* body {
+  background: linear-gradient(-100deg, rgb(0, 0, 0) 50%, rgb(29, 204, 29) 50%);
+  height: 70vh;
+  font-family: poppins;
+} */
+.aboutus {
+  background: linear-gradient(
+    -100deg,
+    rgb(0, 0, 0) 50%,
+    rgb(37, 228, 245) 50%
+  );
+  font-family: poppins;
+}
+
+.container1 {
+  /* margin-top: 15%; */
+  padding-top: 5%;
+}
+
+.img-text {
+  width: 100%;
+  height: 300px;
+  display: block;
+  text-align: center;
+  padding: 40% 5%;
+  border-color: #000;
+  color: rgb(6, 6, 6);
+  border-radius: 15px ;
+  background-color: #5de6de;
+background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%);
+
+
+}
+
+.img-text h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 15px;
+  font-family: Century;
+}
+
+.img-text p {
+  font-size: 20px;
+}
+
+.single-box {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.img-area {
+  position: absolute;
+  width: 200px;
+  height: 210px;
+  border: 5px solid #fff;
+  overflow: hidden;
+  top: 15px;
+  left: 200px;
+  border-radius: 50%;
+}
+
+.img-area img {
+  width: 100%;
+}
+
+.carousel-indicators {
+  left: 0;
+  top: auto;
+  bottom: -70px;
+}
+
+.carousel-indicators li {
+  background: #000;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+
+.carousel-indicators .active {
+  background: #fff;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
